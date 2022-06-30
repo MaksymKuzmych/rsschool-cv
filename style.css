@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+html {
+  background-color: black;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1024px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #333533;
+}
+
+.header {
+  display: flex;
+}
+
+.header__avatar {
+  width: 25%;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+}
+
+.header__nav {
+}
+
+.nav {
+  padding: 10px 0;
+  background-color: #e13749;
+}
+
+.list {
+  margin: 5px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.nav__item {
+}
+
+.item {
+  list-style-type: none;
+  margin: 3px;
+}
+
+.header__info {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  margin: 15px 0 0 0;
+}
+
+.info {
+  background-color: #e13749;
+}
+
+.info__title {
+  margin: 15px 15px 0 0;
+  font-size: 3em;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: end;
+  margin: 0 0 10px 0;
+}
+
+.title_underline {
+  border-bottom: 3px solid #e13749;
+}
+
+.info__description {
+}
+
+.description {
+  margin: 15px;
+}
+
+.main {
+  display: flex;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  color: white;
+  padding: 10px 3px;
+}
+
+.aside .item {
+  font-size: 0.85em;
+}
+
+.skills__logo {
+  width: 10%;
+}
+
+.education__certificate {
+  width: 100%;
+  margin: 5px;
+}
+.main-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 75%;
+  padding: 10px 3px;
+  background-color: white;
+}
+
+.solution__image {
+  display: block;
+  margin: 3px auto;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e13749;
+  padding: 5px;
+}
+
+.footer__img {
+  height: 50px;
+}
+
+.footer__date {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5px;
+}
