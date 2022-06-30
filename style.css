@@ -58,7 +58,10 @@ body {
   text-transform: uppercase;
 }
 
-.nav__item {
+.nav__item a:hover {
+  color: black !important;
+  text-decoration: underline;
+  transition: 0.5s;
 }
 
 .item {
