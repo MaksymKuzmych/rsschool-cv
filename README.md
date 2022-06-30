@@ -1,3 +1,4 @@
 # rsschool-cv
 
-https://MaksymKuzmych.github.io/rsschool-cv/cv
+Markdown - https://MaksymKuzmych.github.io/rsschool-cv/cv
+HTML - https://MaksymKuzmych.github.io/rsschool-cv/
