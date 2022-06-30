@@ -33,14 +33,16 @@ body {
   width: 25%;
 }
 
+.avatar {
+  width: 100%;
+  height: 100%;
+}
+
 .header__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 75%;
-}
-
-.header__nav {
 }
 
 .nav {
@@ -93,9 +95,6 @@ body {
 
 .title_underline {
   border-bottom: 3px solid #e13749;
-}
-
-.info__description {
 }
 
 .description {
