@@ -8,6 +8,11 @@
 a {
   color: white;
   text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover {
+  transform: scale(1.03);
 }
 
 html {
@@ -56,9 +61,8 @@ body {
 }
 
 .nav__item a:hover {
-  color: black !important;
+  color: black;
   text-decoration: underline;
-  transition: 0.5s;
 }
 
 .item {
@@ -78,7 +82,6 @@ body {
 }
 
 .info__title {
-  margin: 15px 15px 0 0;
   font-size: 3em;
 }
 
@@ -99,6 +102,7 @@ body {
 .main {
   display: flex;
 }
+
 .aside {
   display: flex;
   flex-direction: column;
@@ -112,6 +116,12 @@ body {
   font-size: 0.85em;
 }
 
+.skills__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .skills__logo {
   width: 10%;
 }
@@ -120,6 +130,19 @@ body {
   width: 100%;
   margin: 5px;
 }
+
+.education__list,
+.skills__list,
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
 .main-information {
   display: flex;
   flex-direction: column;
@@ -138,12 +161,20 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #e13749;
-  padding: 5px;
+  padding: 5px 10px;
+}
+
+.footer__github-link {
+  width: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__img {
-  height: 50px;
+  height: 40px;
 }
 
 .footer__date {
